@@ -1,0 +1,11 @@
+Beverages
+Bread/Bakery
+Vegetables
+Dairy
+Dry/Baking Goods
+Meat
+Fruits
+Cleaners
+Paper Goods
+Personal Care
+Other
