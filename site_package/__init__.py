@@ -11,5 +11,6 @@ def create_app(config_class=Config):
     from site_package.orders_package.routes import order
     app.register_blueprint(main)
     app.register_blueprint(order)
+    
 
     return app
