@@ -6,9 +6,11 @@ main = Blueprint('main', __name__)
 @main.route("/")
 @main.route("/home")
 def home():
-    return render_template("home.html")
+    user = {'username': 'Adam'}
+    
+    return render_template("home.html",title='Home', user=user)
 
 
-@main.route("/some")
-def confirm():
-    return render_template('some.html')
+@main.route("/orders")
+def orders():
+    return render_template('orders.html')
