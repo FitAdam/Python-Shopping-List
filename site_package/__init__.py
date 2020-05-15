@@ -1,6 +1,7 @@
 from flask import Flask
 from site_package.config import Config
 from flask_mail import Mail
+#from flask_sqlalchemy import SQLAlchemy
 
 mail = Mail()
 
